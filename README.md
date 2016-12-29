@@ -13,5 +13,5 @@
 **Fichiers** :
 
 - [x] index.html
-- [ ] style.css
+- [x] style.css
 - [ ] script.js
