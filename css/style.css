@@ -57,6 +57,7 @@ header{
 #corpsDePage{
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 #corpsDePage1{
@@ -67,6 +68,28 @@ header{
 	font-size: 1.875em;
 }
 
+#corpsDePage2{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+	#corpsDePage2_1 {
+	width: 100%;
+}
+
+#corpsDePage2_2 {
+	width: 100%;
+}
+
+#corpsDePage2_3 {
+	width: 100%;
+}
+
+#corpsDePage2_4 {
+	width: 100%;
+}
+
+
 #corpsDePage2_1 img{
 	border: 1px black solid;
 	display: flex;
@@ -74,6 +97,111 @@ header{
 	width: 100%;
 }
 
+#corpsDePage2_2 img{
+	border: 1px black solid;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+#corpsDePage2_3 img{
+	border: 1px black solid;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+#corpsDePage2_4 img{
+	border: 1px black solid;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+#corpsDePage3{
+	font-size: 1.3125em;
+	text-align: center;
+	padding: 10px;
+	background-color: #E9EDF2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#corpsDePage3 img{
+	width: 100%;
+}
+
 button{
-	font-size: 0.2em;
+	background-color: #3093F7;
+	border: solid black 1px;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 1em;
+	color: white;
+}
+
+#credit{
+	font-size: 0.7em;
+	width: 100%;
+}
+
+@media screen and (min-width: 304px) {
+	header{
+		flex-direction: row;
+		height: 75px;
+	}
+
+
+
+	#headerDroit{
+		align-self: center;
+	}
+
+	#corpsDePage1{
+		margin-top: 75px;
+	}
+
+		#corpsDePage2_1 {
+		width: 50%;
+	}
+
+	#corpsDePage2_2 {
+		width: 50%;
+	}
+	
+	#corpsDePage2_3 {
+		width: 50%;
+	}
+
+	#corpsDePage2_4 {
+		width: 50%;
+	}	
+
+
+}
+
+@media screen and (min-width: 700px) {
+	#corpsDePage1{
+		margin-top: 75px;
+	}
+
+		#corpsDePage2_1 {
+		width: 25%;
+	}
+
+	#corpsDePage2_2 {
+		width: 25%;
+	}
+	
+	#corpsDePage2_3 {
+		width: 25%;
+	}
+
+	#corpsDePage2_4 {
+		width: 25%;
+	}	
+
+
 }
